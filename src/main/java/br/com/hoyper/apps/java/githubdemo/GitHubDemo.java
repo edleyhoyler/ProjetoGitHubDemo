@@ -16,6 +16,5 @@ public class GitHubDemo {
         stage.close();
         Platform.exit();
         System.exit(0);
-        System.out.println("***END***");
     }
 }
