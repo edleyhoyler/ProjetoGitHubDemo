@@ -4,7 +4,8 @@ public class MainApps {
 
 	public static void main(String[] args) {
 		System.out.println("DELETADOS");
-
+		System.out.println("DELETADOS");
+		System.out.println("DELETADOS");
 	}
 
 }
