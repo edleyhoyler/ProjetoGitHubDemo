@@ -5,7 +5,9 @@ import java.util.ResourceBundle;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.Node;
 import javafx.scene.control.Button;
+import javafx.stage.Stage;
 
 public class GitHubDemoController extends GitHubDemo {
 
@@ -20,7 +22,9 @@ public class GitHubDemoController extends GitHubDemo {
 
     @FXML
     public void onActionButtonClose(ActionEvent event) {
-    	super.onActionButtonClose(event);
+        final Node node = (Node) event.getSource();
+        final Stage stage = (Stage) node.getScene().getWindow();
+        stage.close();
     }
     
     @FXML
