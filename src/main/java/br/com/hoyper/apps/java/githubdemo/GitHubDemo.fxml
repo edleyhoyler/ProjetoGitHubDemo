@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	
+
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
-	
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.hoyper.apps.java.githubdemo.GitHubDemoController">
-	<!-- TODO Add Nodes -->
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.hoyper.apps.java.githubdemo.GitHubDemoController">
+   <children>
+      <Button fx:id="buttonClose" layoutX="574.0" layoutY="441.0" mnemonicParsing="false" onAction="#onActionButtonClose" text="Close" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+   </children>
 </AnchorPane>
