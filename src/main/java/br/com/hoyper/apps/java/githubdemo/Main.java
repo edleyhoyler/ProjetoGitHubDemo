@@ -14,7 +14,7 @@ public class Main extends Application {
 			AnchorPane root = (AnchorPane)FXMLLoader.load(getClass().getResource("GitHubDemo.fxml"));
 			Scene scene = new Scene(root,root.getPrefWidth(),root.getPrefHeight());
 			scene.getStylesheets().add(getClass().getResource("GitHubDemo.css").toExternalForm());
-			primaryStage.setTitle("Git Hub Demo");
+			primaryStage.setTitle("Git Hub Demo edyMASTER");
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {
