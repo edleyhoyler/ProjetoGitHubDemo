@@ -17,9 +17,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 		<name>HOYLER Tecnologia</name>
 	</organization>
 	
-
 	<properties>
-		<java.version>13</java.version>
+		<java.version>11</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -34,7 +33,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 				<configuration>
 				  <source>${java.version}</source> 
 				  <target>${java.version}</target>  
-				  <release>${java.version}</release>
 				</configuration>
 			</plugin>
 		</plugins>
